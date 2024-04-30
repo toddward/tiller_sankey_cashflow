@@ -43,7 +43,7 @@ clasp login
 ```
 cd tiller_sankey_cashflow
 clasp clone <script_id_from_your_appscript_project>
-clasp push -P
+clasp push -P .
 ```
 - Go back to your Apps Script project and if there are multiple `Code.js` files, delete the empty one. If both are non-empty, you probably already created another apps script and you already know what to do. 
 
